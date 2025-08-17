@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    background-image: url(https://newslit.org/wp-content/uploads/2024/02/Election-Misinfo-Campaign_1600x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+
+h1{
+    text-align: center;
+    margin-left: 450px;
+    color: Black;
+    text-shadow: 2px;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,0.5);
+    padding: 0px;
+    margin: 0px;
+   
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navdiv{
+    display:flex;
+    /* position:fixed; */
+}
+.logo img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top:5px;
+    margin-left: 25px;
+}
+
+
+
+.c{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    padding-bottom: 50px;
+}
+.c img{
+    
+    width:200px;
+    height:200px;
+ 
+    border-radius:20%;
+    
+}
+.candidate{
+    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding-top: 100px;
+}
+button{
+    width:100px;
+    height: 30px;
+    background-color: rgb(44, 44, 226);
+    color: antiquewhite;
+    font-size: medium;
+    font-weight: 700; 
+}
+button:hover{
+   
+    color: black;
+    transition: 0.3s ease-in-out;
+  
+}

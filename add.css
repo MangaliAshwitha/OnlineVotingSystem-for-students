@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    background-image: url(https://newslit.org/wp-content/uploads/2024/02/Election-Misinfo-Campaign_1600x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+h1{
+    text-align: center;
+    margin-left:50px;
+    color: Black;
+    text-shadow: 2px;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,0.5);
+    padding: 0px;
+    margin: 0px;
+  
+}
+.navbar a:hover{
+    transition: 0.3s ease-in;
+    transition:0.3s ease-out;
+    color:blue;
+    
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.logo img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top:5px;
+    margin-left: 25px;
+}
+.out{
+    background-color: rgba(255,255,255,0);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+    margin-right: 15px;
+}
+.out:hover{
+    color:antiquewhite;
+   background-color:blue;
+    transition: 0.3s ease-in;
+    transition:0.3s ease-out;
+}
+
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+li a{
+    font-size:20px;
+    font-weight: 600;
+    margin-right: 20px;
+    color:black;
+}
+
+.box{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: black;
+}
+
+.field{
+    font-size: 15px;
+    background-color: bisque;
+    color:rgb(7, 7, 7);
+    height: 50px;
+    width: 100%;
+    padding:auto;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.field:hover, .field:focus{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+
+.det{
+    
+    height:400px;
+    width:500px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 6px 5px 6px rgba(0, 0, 0, 0.589);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+.txt{
+    color:aliceblue
+}
+
+.input-box i{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: black;
+}
+.input-field{
+    font-size: 15px;
+ 
+    color:rgb(7, 7, 7);
+    height: 50px;
+    width: 89%;
+    padding: 0 10px 0 45px;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.submit{
+    align-self: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(7, 7, 7);
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}

@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    background-image: url(https://newslit.org/wp-content/uploads/2024/02/Election-Misinfo-Campaign_1600x900.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-left:50px;
+    color: Black;
+    text-shadow: 2px;
+}
+
+.navbar{
+    background-color: rgba(255,255,255,0.5);
+    padding: 0px;
+    margin: 0px;
+   
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+
+}
+.logo img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top:5px;
+    margin-left: 25px;
+}
+
+
+#userbtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: rgb(0, 174, 255);
+    background-color: antiquewhite;
+}
+
+#adminbtn{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: medium;
+    font-weight: 700;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+.wraper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 420px;
+    overflow: hidden;
+    z-index: 2;
+}
+.user-container{
+    position: absolute;
+    left: 4px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+p{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    background-color: white;
+  
+    font-size: large;
+    font-weight: 300;
+}
+.regbtn{
+    margin-top: 20px;
+   font-size: medium;
+   font-weight: 500;
+}
+.admin-container{
+    position: absolute;
+    right: -520px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+.register{
+    position: absolute;
+    bottom: -450px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.input-field{
+    font-size: 15px;
+    background-color: bisque;
+    color:rgb(7, 7, 7);
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    outline: none;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+.input-field:hover, .input-field:focus{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+.input-box i{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: black;
+}
+.submit{
+    text-decoration: none;
+}
+.submit{
+    align-self: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(7, 7, 7);
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.submit:hover{
+    background-color: blanchedalmond;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.two-forms{
+    display: flex;
+    gap: 10px;
+}
+
+
